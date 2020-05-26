@@ -159,8 +159,9 @@ try:
 
     def main():
         print ("")
+        print ("- Welcome, this tool randomly assebles names that could be used for the app.")
         print ("- To Generate New Name: Press Enter.")
-        print ("- To Generate New Name: Press Enter.")
+        print ("- To Quit: Press Ctrl-C.")
         print ("")
         getNewName()
 

@@ -127,7 +127,7 @@ try:
             "first",
             "at once",
             "right away",
-            "away"
+            "away",
             "instantly",
             "minute",
             "pronto",
