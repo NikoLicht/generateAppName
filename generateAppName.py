@@ -134,8 +134,12 @@ try:
                 plural = "s" 
                 these = "these"
             print("You saved %s " % these + str(len(saved_names)) + " name%s:" % plural)
+            copy_all = ""
             for saved_name in saved_names:
                 print("   - " + saved_name)
+                copy_all = copy_all + saved_name + "\n"
+            pyperclip.copy(copy_all)
+            print ("Now copied to clipboard.")
         
 
     def main():
